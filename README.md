@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# React YouTube Search App
+
+Done as part of the Modern React with Redux course by Steven Grider on Udemy.
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
