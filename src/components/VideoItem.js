@@ -1,5 +1,6 @@
 import './VideoItem.css'
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const VideoItem = ({ video, onVideoSelect }) => {
   return (
@@ -15,6 +16,11 @@ const VideoItem = ({ video, onVideoSelect }) => {
       </div>
     </div>
   )
+}
+
+VideoItem.propTypes = {
+  video: PropTypes.object.isRequired,
+  onVideoSelect: PropTypes.func.isRequired
 }
 
 export default VideoItem
